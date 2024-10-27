@@ -4,9 +4,9 @@
 
 Entity linking is a cute problem in NLP where your are tasked with connecting a mention to an entry in a knowledge base. For example, take the sentence "In order to save Troy, **Paris** had to be sacrificed" -- the mention **Paris** should connect to **Paris (mythological figure)** not the capital of France. 
 
-I tackle this problem by training bi-encoders [here](https://github.com/Yokto13/mel).
+I tackle this problem by training [bi-encoders](https://github.com/Yokto13/mel) and embedding mentions and entities to the same space.
 
-I also wrote a [datastructure](https://github.com/ufal/linpipe/tree/kbelik) in C++ that uses mmap to store and retrieve items from a knowledge base.
+I also wrote a [datastructure](https://github.com/ufal/linpipe/tree/kbelik) in C++ that uses mmap to store and retrieve structural data from a knowledge base.
 
 ### Python
 
@@ -20,7 +20,7 @@ I also wrote a [datastructure](https://github.com/ufal/linpipe/tree/kbelik) in C
 
 ### Other
 
-Recently, I've became interested in CSP and Picat. [Here](https://github.com/Yokto13/picat-learning) are solutions to some practice problems.
+Recently, I've became interested in constrained programming. [Here](https://github.com/Yokto13/picat-learning) are solutions to some practice problems in Picat language.
 
 [Implementation](https://github.com/Yokto13/Strom.jl) of common decision tree algorithms in Julia.
 
