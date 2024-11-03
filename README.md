@@ -8,6 +8,8 @@ I tackle this problem by training [bi-encoders](https://github.com/Yokto13/mel) 
 
 I also wrote a [datastructure](https://github.com/ufal/linpipe/tree/kbelik) in C++ that uses mmap to store and retrieve structural data from a knowledge base.
 
+[Here](https://github.com/Yokto13/llm-el-reranking) is an experimental repo showing that LLM reranking is harder than it seems.
+
 ### Python
 
 [App](https://github.com/Yokto13/Sphinx) that supports learning using active recall questions.
